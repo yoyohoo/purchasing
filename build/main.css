@@ -25199,6 +25199,10 @@ ion-navbar.toolbar {
   }
 }
 
+page-contact {
+  background-color: #fff;
+}
+
 html {
   font-size: 9px;
 }
@@ -25221,14 +25225,19 @@ ion-col p {
 }
 
 ion-grid#list-grid {
+  padding: 0;
   height: 100%;
 }
 
-ion-list {
-  height: 2rem;
-  font-size: 1rem;
+#list-grid .left-menu {
+  border-right: 1px solid #ccc;
+  margin-bottom: 0;
 }
 
-.left-menu {
-  border-right: 1px solid #ccc;
+#list-grid ion-col {
+  padding-left: 0;
+}
+
+#list-grid .actived {
+  border-left: solid 3px red;
 }
